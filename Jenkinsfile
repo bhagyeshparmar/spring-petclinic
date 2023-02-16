@@ -33,7 +33,7 @@ pipeline {
       }
     }
 
-    stage('Deploy') {
+    stage('QA') {
       parallel {
         stage('Deploy') {
           steps {
